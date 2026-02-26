@@ -11,14 +11,14 @@
 		<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
 			<fieldset>
 				<legend>My Information</legend>
-				<label>First name:</label>
+				<label>First name:<input=""></label>
 				<label>Last name:</label>
 				<label>Phone:</label>
 				<label>Email:</label>
 				<label>Gender</label>
 				<div>
-					<label>Male <input type="radio" name="gender" </label>
-					<label>Female</label>
+					<label>Male <input type="radio" name="gender-label" value="male"></label>
+					<label>Female <input type="radio" name="gender-label" value="female"></label>
 				</div>
 				<label>Age</label>
 			</fieldset>
@@ -33,6 +33,8 @@
 				<label>Saturday</label>
 				<label>Sunday</label>
 			</fieldset>
+			<input type="hidden" name="hidden_field" value="zazeem">
+			<input type="submit">
 		</form>
 	</body>
 </html>
